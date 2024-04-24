@@ -1,0 +1,40 @@
+/* librería de variables creadas para todo el sitio Web */
+:root {
+  --primary-color: black;
+  --secundary-color: rgb(92, 92, 92);
+  --titles-font: helvetica;
+  --body_font: helvetica;
+}
+
+h1 {
+  font-family: Helvetica;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.menu {
+  font-family: Helvetica;
+  text-align: left;
+  color: black;
+}
+
+.menu a {
+  text-decoration: none;
+  font-style: italic;
+}
+
+h2 {
+  font-family: Helvetica;
+  text-align: left;
+  vertical-align: top;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px;
+}
