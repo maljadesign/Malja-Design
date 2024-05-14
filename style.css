@@ -1,4 +1,5 @@
 /* librería de variables creadas para todo el sitio Web */
+
 :root {
   --primary-color: black;
   --secundary-color: rgb(92, 92, 92);
@@ -8,14 +9,18 @@
 
 h1 {
   font-family: Helvetica;
-  text-align: center;
+  text-align: left;
+  font-style: italic;
   text-transform: capitalize;
+  margin-left: 30px;
 }
 
 .menu {
   font-family: Helvetica;
-  text-align: left;
   color: black;
+  margin-left: 10px;
+  margin-top: 40px;
+  display: inline-block;
 }
 
 .menu a {
@@ -37,4 +42,46 @@ button {
   padding: 15px;
   border-radius: 10px;
   margin: 20px;
+}
+.box {
+  display: inline-block;
+  align-items: center;
+  width: 800px;
+}
+
+.normal {
+  background-image: url(IMG/imagen\ de\ fondo.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.principal {
+  background-image: url(IMG/imagen\ index.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h3 {
+  font-family: Helvetica;
+  font-style: normal;
+  text-align: justify;
+  vertical-align: top;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-style: normal;
+  text-align: justify;
+  vertical-align: top;
+  font-style: italic;
+}
+div {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.box1 {
+  display: inline-block;
+  align-items: center;
+  width: 600;
 }
